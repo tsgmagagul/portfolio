@@ -97,7 +97,7 @@ nav ul li a:hover {
 }
 .container
 {
-    padding-top: 190px;
+    padding-top: 10px;
 }
 .container img{
   height: auto;
@@ -213,7 +213,19 @@ top:0;
 nav .nav-list.open {
     right: 0;
 }
-
+.services
+  {
+    width: 100%;
+    padding: 100px 0px;
+  }
+.services .title1
+  {
+color: #101010;
+font-size: 75px;
+width: 1130px;
+margin: 30px auto;
+text-align: center;
+  }
 .service {
     background-color: #101010;
     width: 100%;
@@ -391,7 +403,4 @@ footer {
     border: 2px solid #00c7f9;
     cursor: pointer;
   }
-  .services
-  {
-    
-  }
+  
