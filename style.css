@@ -162,11 +162,15 @@ letter-spacing: 2px;
 font-size: 15px;
 }
 @media screen and (max-width:980px){
+  .hero
+  {
+    width: 100%;
+  }
    nav .hamb{
     display: initial;
    } 
    .click{
-    top: 46px;
+    top: 36px;
    }
    .click span{
     position: absolute;
@@ -174,11 +178,11 @@ font-size: 15px;
    }
    .click span :first-child
    {
-transform: rotate(-40deg);
+transform: rotate(-60deg);
    }
    .click span:nth-child(2)
    {
-    opacity: 0;
+    opacity: 12px;
     margin: 0;
    }
    .click span:last-child{
@@ -188,7 +192,7 @@ top:0;
    nav .nav-list{
     position: absolute;
     top:90px;
-    right: -65%;
+    /* right: -75%; */
     bottom:0;
     width: 60%;
     height: 50%;
@@ -211,7 +215,7 @@ top:0;
    }
 }
 nav .nav-list.open {
-    right: 0;
+    right:0;
 }
 .services
   {
@@ -250,6 +254,7 @@ text-align: center;
     width: 335px;
     padding: 20px 35px;
     background: #191919;
+    color: white;
     border-radius: 20px;
     margin: 15px;
     position: relative;
